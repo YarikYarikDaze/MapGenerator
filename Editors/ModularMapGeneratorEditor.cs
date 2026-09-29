@@ -31,7 +31,6 @@ public class ModularMapGeneratorEditor : Editor
             return;
         }
 
-        // Проверка и инициализация настроек
         if (!generator.SettingsInitializationCheck())
         {
             generator.EnsureSettingsInitialized();
